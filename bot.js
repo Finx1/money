@@ -6,7 +6,7 @@ console.log("Scrpit By Dream");
 client.on("ready", () => {
 let channel =     client.channels.get("57961659450168324")
 setInterval(function() {
-channel.send(` لعيون حسين بنصير مليونيرات`);
+channel.send(` لعيون ماجيكو بنصير مليونيرات`);
 }, 30)
 })
 client.login(process.env.BOT_TOKEN);
