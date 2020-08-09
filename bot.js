@@ -9,6 +9,7 @@ setInterval(function() {
 channel.send(` لعيون ماجيكو بنصير مليونيرات`);
 }, 30)
 })
+client2.login(process.env.BOT_TOKEN);
 
 const Discord = require('discord.js');
 const client2 = new Discord.Client();
